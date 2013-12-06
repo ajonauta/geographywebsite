@@ -5,5 +5,33 @@
 <body>
 <body style="background-color:black;">
 <a href="index.html"><img src="http://images.cooltext.com/3479647.png"></a>
-
 <a href="products.html"><img src="http://images.cooltext.com/3479656.png"></a>
+<a href="news.html"><img src="http://images.cooltext.com/3479902.png"></a>
+<p>
+<!---slideshow horizontal pro---->
+<script src="js/jquery.min.js"></script>
+<script src="js/slider.min.js"></script>
+<script>
+    $(function () {
+      
+      // Slideshow 1
+      $("#slider").responsiveSlides({
+                                    maxwidth: 400,
+                                    speed: 700
+                                    });
+      
+      });
+    </script>
+
+ <div class="container">
+    <!-- Image Slider -->
+    <ul id="slider" class="slider">
+        <body style="background-color:white">
+                  
+        <li><img src="images/stock/6.jpg" alt="" height="200" width="100%"/></li>
+        <li><img src="images/stock/2.jpg" alt="" height="200" width="100%"/></li>
+        <li><img src="images/stock/3.jpg" alt="" height="200" width="100%"/></li>
+        <li><img src="images/stock/4.jpg" alt="" height="200" width="100%"/></li>
+        <li><img src="images/stock/5.jpg" alt="" height="200" width="100%"/></li>
+        <li><img src="images/stock/1.jpg" alt="" height="200" width="100%"/></li>
+    </ul>
